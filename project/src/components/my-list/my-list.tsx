@@ -38,7 +38,7 @@ function MyList(): JSX.Element {
 
         <div className="catalog__films-list">
           {
-              FilmsList.slice(0, 5).map((item) => <Card key={item.filmTitle} filmTitle={item.filmTitle}  posterImage={item.posterImage}/>)
+            FilmsList.slice(0, 5).map((item) => <Card key={item.filmTitle} filmTitle={item.filmTitle}  posterImage={item.posterImage}/>)
           }
         </div>
       </section>
